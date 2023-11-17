@@ -3,7 +3,7 @@ The RAS method is a well-known method for data reconciliation. It is an iterativ
 The macro programming that performs the biproportional fitting method was carried out in accordance with the methodology described in Blair and Miller (2009), detailed in the appendix.
 I developed an Excel VBA application, which works for any matrix regardless of the number of sectors, assuming they have an m rows x n columns matrix. 
 Application:
-Open the file ras-margin.xlsm and verify that macros are enabled.
+Open the file ras-margin.xlsm and verify that macros are enabled.\n
 Paste the base matrix (the one to be updated) without labels in rows or columns into the first cell (A1). Therefore, only a matrix of exactly mxn will be pasted.
 In column n+1, enter the total value of the target intermediate demand for each sector, i.e., a vector of mx1 (It is assumed that, once the ras procedure is done, the sum of the rows for each sector will give you that quantity).
 In column n+2, enter a formula with the sum of the intermediate demand of the base matrix, which will be different from the target demand recorded in n+1.
