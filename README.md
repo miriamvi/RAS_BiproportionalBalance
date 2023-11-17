@@ -12,6 +12,6 @@ In row m+2, enter the formula with the sum of the intermediate purchases from th
 Observe and memorize the dimension of the matrix (how many rows and columns), excluding the borders.  
 Click on the "RAS" button located in the quick access toolbar. If you cannot find the button, you can activate the macro directly in the Developer tab, Macros, RAS0.  
 Next, a dialog box will open where you must enter the matrix's number of rows and columns.  
-If the matrix has margins, click on "Margins," which will open a dialog box to select the margin matrix, which must be of the same dimension as the intermediate transactions matrix. This allows for the transition from buyer prices to basic prices and updating the matrix.  
+If the matrix has margins (trade or transport margins), click on "Margins," which will open a dialog box to select the margin matrix, which must be of the same dimension as the intermediate transactions matrix. This allows for the transition from buyer prices to basic prices and updating the matrix.  
 If there are no margins, DO NOT click on margins.  
 Click OK and wait for a new dialog box to appear saying "Generated Matrix."  
